@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>FOOD ENTHUSIAST</title>
+  </head>
+  <body id = "page-top">
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="mainNav">
+        <div class="container">
+        <a class="navbar-brand text-white" href="#page-top">FOOD ENTHUSIAST</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger text-white font-weight-normal" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-white font-weight-normal" href="#search-bar">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger text-white font-weight-normal" href="#contact">Footer</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <!--Home With Carousel-->
+      <div id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/ShrimpRoll.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container text-center">  
+                  <h1 class="display-4"><img width = "200px" src="./assets/logo.png"><br>Food Enthusiast </h1>
+                  <p class="lead"><span class =  "font-weight-bold">For People Hungry </span></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/Risol Sayur.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container text-center">
+                <h1 class="display-4">With Instruction</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/ShrimpRoll.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="container text-center">
+                  <h1 class="display-4">And Video How To Cook</h1>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <main>
+      <!--Search bar and Meal list-->
+      <div id="search-bar">
+      <search-bar></search-bar>
+      <meal-list></meal-list>
+      </div>
+      <!--Footer-->
+      <div id="contact">
+        <bio-data></bio-data>
+      </div>
+      </main>
+      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
